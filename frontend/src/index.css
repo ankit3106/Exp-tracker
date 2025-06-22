@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Optional: Hide scrollbars but allow scrolling (for custom scrollbars or touch devices) */
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none;
+}
+body, html {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
